@@ -1,0 +1,193 @@
+.header {
+  color: black;
+  height: 150px;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.NavbarTop {
+  display: flex;
+  align-items: center;
+
+}
+
+.navbarBottom {
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.NavBarLeft {
+
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.leftImgDiv {
+
+  width: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+.leftsideLogoImage {
+
+  width: 50px;
+  height: 50px;
+}
+
+.NavBarCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.NavBarRight {
+
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menuItems {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.navbarIcons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.selectEng {
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.hamburgerButton {
+  display: none;
+}
+
+
+/* Media query for tablet view */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+
+  }
+
+  .navbarTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .NavBarLeft {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .leftsideLogoImage {
+    width: 40px;
+    height: 40px;
+  }
+
+  .NavBarCenter {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+  }
+
+  .NavBarRight {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .menuItems {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+
+  .navbarIcons {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+
+
+}
+
+/* Media query for mobile view */
+@media (max-width: 500px) {
+  .header {
+    height: auto;
+    padding: 5px;
+  }
+
+  .navbarTop {
+    height: 100%;
+  }
+
+  .navbarBottom {
+    display: none;
+  }
+
+  .NavBarLeft {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .leftsideLogoImage {
+    width: 25px;
+    height: 25px;
+  }
+
+  .hamburgerButton {
+    display: block;
+  }
+
+  .userIcon {
+    display: none;
+  }
+
+  .selectEng {
+    display: none;
+  }
+
+  .logoH1 {
+
+    font-size: x-large;
+  }
+
+
+}
